@@ -1,0 +1,55 @@
+body{
+    background-color: bisque;
+}
+h1{
+    font-style: bold;
+    font-size: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(0, 105, 105);
+    color: 	#ff982c;
+}
+.form{
+    display: grid;
+    width: auto;
+    text-align: center;
+    font-size: 50px;
+}
+.weather{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  
+}
+.font1{
+    font-style: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: peru;
+}
+.font2{
+    font-style: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rebeccapurple;
+}
+#cityName{
+    background-color: gray;
+    color: black;
+    box-sizing: 20px;
+    border-radius: 10%;
+    width: 150px;
+    height: 40px;
+    font-size: 30px;
+}
+button{
+    box-sizing: 20px;
+    border-radius: 10%;
+    width: 70px;
+    height: 40px;
+    font-size: 30px;
+}
+fieldset{
+    background: url("../w.img");
+}
+

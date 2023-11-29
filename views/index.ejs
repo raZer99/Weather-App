@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Lisper</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Titan+One&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles/main.css">
+
+</head>
+
+<body>
+<div class="weather">
+<fieldset>
+   <legend><h1>Weather App</h1></legend> 
+    
+    <form class="form" action="/get" method="post">
+      <p class="font1">
+        <label for="cityInput">City Name : </label>
+        <input type="text" name="cityName" id="cityName" required autocomplete="off" >
+        <button type="Submit">Go</button>
+      </p>
+        <p class="font2">
+            Temperature: <%= temp %> ℃ 
+        </p>
+        <p class="font2">
+          Weather condition: <%= desc %> 
+        </p> 
+    </form>
+  </fieldset>
+
+</div> 
+</body>
+</html>
